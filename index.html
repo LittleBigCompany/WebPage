@@ -7,7 +7,7 @@
 	</head>
 	<body bgcolor="black">
 		<script type="text/javascript">
-			var x = function loadPage(pageName)
+			function loadPage(pageName)
 			{
 				document.getElementById('otherPage').innerHTML = "<object type=\"text/html\" data\"" +pageName +"\"></object>";
 			}
@@ -16,25 +16,26 @@
 			<div id="menubar">
 				<ul>
 					<li>
-						<p><a href="">Web Page</a></p>
+						<p><button onClick="loadPage(mainpage.html)">Web Page</button></p>
 					</li>
 					<li>
-						<p><a href=#games>Games</a></p>
+						<p>Games</p>
 						<ul>
 							<li>
-								<p><a onclick="javascript:document.getElementById('otherPage').style.display='block';" href="themine.html">The Mine</a></p>
+								<p><button onclick="loadPage('themine.html')">The Mine</button></p>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<p><a onclick="javascript:document.getElementById('otherPage').style.display='block';" href="about.html">About Us</a></p>
+						<p><button onclick="loadPage('about.html')">About Us</button></p>
 					</li>
 				</ul>
 			</div>
-			<div id='otherPage'>
+			<div id='otherPage' width="1000" height="1000">
+				<div></div>
     		</div>
-	    	<div style="position:fixed; bottom:0px; right:0px; color:white;">
-	    		YOLOGames 2014
+	    	<div style="position:fixed; bottom:0px; right:40px; color:white;">
+	    		&copy; YOLOGames 2014 
 	    	</div>
     	</div>
 	</body>

@@ -5,12 +5,14 @@ zespol
 	position: relative;
 	padding-left: 30px;
 }
-
-czlonek
-{
-	color: white;
-	display: inline;
-	padding-left: 10px;
+@media screen and (max-width: 2000px) and (min-width: 200px) {
+	czlonek
+	{
+		color: white;
+		display: inline;
+		padding-left: 21px;
+		background: url(majster.jpg) left center no-repeat;
+	}
 }
 
 ul#mainUL
@@ -26,12 +28,4 @@ ul#mainUL
 p
 {
 	color: white;
-}
-
-img#zdjecie
-{
-	padding-left: 50px;
-	display: inline;
-	width: 80px;
-	height: 60px;
 }
