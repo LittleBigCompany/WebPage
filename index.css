@@ -52,24 +52,13 @@
 
 }
 
-#games
-{
-	background: white;
-	color: black;
-}
-
 #menubar
 {
-	background: black;
+	padding-left: 50px;
 }
 
-#aboutUs
+div
 {
-	background: green;
-	text-align: center;
-}
-
-br
-{
-	height: inherit;
+	padding-top: 0px;
+	padding-bottom: 50px;
 }

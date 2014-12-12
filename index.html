@@ -6,6 +6,12 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body bgcolor="black">
+		<script type="text/javascript">
+			var x = function loadPage(pageName)
+			{
+				document.getElementById('otherPage').innerHTML = "<object type=\"text/html\" data\"" +pageName +"\"></object>";
+			}
+		</script>
 		<div id="main">
 			<div id="menubar">
 				<ul>
@@ -16,62 +22,18 @@
 						<p><a href=#games>Games</a></p>
 						<ul>
 							<li>
-								<p><a href="themine.html">The Mine</a></p>
+								<p><a onclick="javascript:document.getElementById('otherPage').style.display='block';" href="themine.html">The Mine</a></p>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<p><a href="#aboutUs">About Us</a></p>
+						<p><a onclick="javascript:document.getElementById('otherPage').style.display='block';" href="about.html">About Us</a></p>
 					</li>
 				</ul>
-				<br/>
 			</div>
-			<div id='games'>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-				<p># games</p>
-			</div>
-			<div id='aboutUs'>
-				<p>
-					Designer: Jan Bełczącki<br/>
-					Artyści: Krzysztof Szczech<br/>
-					Marcin Wawrzonowski<br/>
-					Programiści: Patryk Kochański<br/>
-					&#9;&#9;Krzysztof Stengert<br/>
-				</p>
-			</div>
-	    	<div style="position:fixed; bottom:0px; right:0px;">
+			<div id='otherPage'>
+    		</div>
+	    	<div style="position:fixed; bottom:0px; right:0px; color:white;">
 	    		YOLOGames 2014
 	    	</div>
     	</div>

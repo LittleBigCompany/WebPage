@@ -1,0 +1,37 @@
+zespol
+{
+	color: white;
+	display: block;
+	position: relative;
+	padding-left: 30px;
+}
+
+czlonek
+{
+	color: white;
+	display: inline;
+	padding-left: 10px;
+}
+
+ul#mainUL
+{
+	list-style-type: circle;
+}
+
+#ul
+{
+	list-style-type: armenian;
+}
+
+p
+{
+	color: white;
+}
+
+img#zdjecie
+{
+	padding-left: 50px;
+	display: inline;
+	width: 80px;
+	height: 60px;
+}
