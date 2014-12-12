@@ -1,0 +1,75 @@
+#menubar ul
+{
+	padding: 1;
+	margin: 1;
+	list-style-type: none;
+}
+
+#menubar li
+{
+	float: left;
+	position: relative;
+	padding-right: 100;
+	display: block;
+	border: 4px solid black;
+	border-style: inset;
+	background: silver;
+}
+
+#menubar li ul
+{
+	display: none;
+	position: absolute;
+}
+
+#menubar li:hover ul
+{
+	display: block;
+	background: silver;
+	height: auto;
+	width: auto;
+}
+
+#menubar li ul li
+{
+	clear: both;
+	border-style: none;
+	padding-right: 100;
+}
+
+#menubar a
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+#menubar p
+{
+	text-align: center;
+	text-decoration: none;
+	width: 100pt;
+	word-spacing: 2pt;
+
+}
+
+#games
+{
+	background: white;
+	color: black;
+}
+
+#menubar
+{
+	background: black;
+}
+
+#aboutUs
+{
+	background: green;
+	text-align: center;
+}
+
+br
+{
+	height: inherit;
+}

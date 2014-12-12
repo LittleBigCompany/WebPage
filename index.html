@@ -2,35 +2,78 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 	<head>
-		<title>The Mine - Survival Horror Prototype</title>
+		<title>Crazy Loot Games</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
-	<body bgcolor="black" text="white" align="center" onload="countdown(2015, 01, 20, 13, 0, 0)">
-		<script type="text/JavaScript">
-			function countdown()
-			{
-				var today = new Date();
-				var targetDate = new Date(2015, 0, 20, 13, 0, 0, 0);
-				var ms = targetDate - today;
-				var s = Math.floor(ms / 1000);
-				var d = Math.floor(s / 86400);
-				s -= d * 60 * 60 * 24;
-				var h = Math.floor(s / 3600);
-				s -= h * 60 * 60;
-				var m = Math.floor(s / 60);
-				s -= m * 60;
-
-				document.getElementById('time').innerHTML = d + ' days, ' + h + ' hours, ' + m + ' minutes, ' + s + ' seconds';
-
-				setTimeout("countdown()",1000)
-			}	
-		</script>
-		<h1>The Mine</h1>
-		<p>Work in progress...</p>
-		<img src="mine-entrance.jpg" width="800" height="600"/>
- 		<p>Time to enter:</p>
-		<p id='time' style="font-size: 20; color: red;"></p>
-    	<div style="position:fixed; bottom:0px; right:0px;">
-    		YOLOGames 2014
+	<body bgcolor="black">
+		<div id="main">
+			<div id="menubar">
+				<ul>
+					<li>
+						<p><a href="">Web Page</a></p>
+					</li>
+					<li>
+						<p><a href=#games>Games</a></p>
+						<ul>
+							<li>
+								<p><a href="themine.html">The Mine</a></p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p><a href="#aboutUs">About Us</a></p>
+					</li>
+				</ul>
+				<br/>
+			</div>
+			<div id='games'>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+				<p># games</p>
+			</div>
+			<div id='aboutUs'>
+				<p>
+					Designer: Jan Bełczącki<br/>
+					Artyści: Krzysztof Szczech<br/>
+					Marcin Wawrzonowski<br/>
+					Programiści: Patryk Kochański<br/>
+					&#9;&#9;Krzysztof Stengert<br/>
+				</p>
+			</div>
+	    	<div style="position:fixed; bottom:0px; right:0px;">
+	    		YOLOGames 2014
+	    	</div>
     	</div>
 	</body>
 </html>
