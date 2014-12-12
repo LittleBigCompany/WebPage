@@ -29,3 +29,9 @@ p
 {
 	color: white;
 }
+
+img#zdjecie
+{
+	width: 400px;
+	height: 400px;
+}
